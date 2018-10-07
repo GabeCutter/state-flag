@@ -1,0 +1,36 @@
+<style>
+    body {
+        background-color: #1c2eb5;
+    }
+
+    .invert {
+        filter: invert(100%) grayscale(100%);
+    }
+
+    img {
+
+    width: 750px;
+
+    margin: 30px 250px 30px 250px;
+
+    color: white;
+    }
+    
+    @keyframes rotate {
+        0% {transform: rotateZ(0deg);}
+        50% {transform: rotateZ(20deg);}
+        100% {transform: rotateZ(0deg);}
+    }
+
+    #flag {
+        animation-name: rotate;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+</style>
+
+<body>
+    <div id="flag">
+        <img class="invert" src= http://www.clker.com/cliparts/t/7/F/y/H/1/south-carolina-flag-hi.png>
+    </div>  
+</body>
